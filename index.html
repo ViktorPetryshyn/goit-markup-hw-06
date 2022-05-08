@@ -431,15 +431,42 @@
 
     <!-- modal window -->
 
+    
+    
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="button-close" data-modal-close>
           <svg class="modal-close-icon" width="18" height="18">
             <use href="img/icon.svg#close">
-          </svg></button>
-        
+          </svg>
+        </button>
+        <div role="form" class="modal-form">
+          <h1 class="form-title">Оставьте свои данные, мы вам перезвоним</h1>
+            <div class="input-box">
+              <label for="name" class="in-title">Имя</label>
+              <input type"text" id="name" class="modform-input" name="name">
+            </div> 
+            <div class="input-box">
+              <label for="tel" class="in-title">Телефон</label>
+              <input type"tel" id="tel" class="modform-input" name="tel"> 
+            </div>
+            <div class="input-box">
+              <label for="mail" class="in-title">Почта</label>
+              <input type"email" id="mail" class="modform-input" name="mail"> 
+            </div>
+          <div class="input-box">
+            <label for="comment" class="in-title">Комментарий</label>
+            <textarea name="comment" id="comment" class="modform-input comment"></textarea>
+          </div>
+          <div class="chekbox-field">
+            <input type="checkbox" name="agreement" id="agreement" class="agreement" value="agree">
+            <label for="areement" class="areement">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></label>
+          </div>
+          <button class="send-btn">Отправить</button>
       </div>
     </div>
+
     <script src="./js/modal.js"></script>
   </body>
 </html>
+

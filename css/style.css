@@ -548,7 +548,6 @@ address {
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: #ffffff;
-  margin-bottom: 20px;
 }
 .join .link-icon {
   background: rgba(255, 255, 255, 0.1);
@@ -562,14 +561,27 @@ address {
 .join-form {
   margin-left: auto;
 }
+.subscribe-box {
+  display: flex;
+  margin-top: 20px;
+}
 .subscribe {
+  display: inline-block;
   background-color: inherit;
   width: 358px;
   height: 50px;
+  padding-left: 16px;
+  color: rgba(255, 255, 255, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
 }
+.subscribe::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
 .subscribe-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 200px;
   height: 50px;
   margin-left: 12px;
@@ -582,6 +594,10 @@ address {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   border-radius: 4px;
+}
+.subscribe-icon {
+  fill: #fff;
+  margin-left: 10px;
 }
 /* modal window */
 
@@ -611,16 +627,22 @@ address {
   position: absolute;
   top: 50%;
   left: 50%;
+  height: 581px;
+  width: 528px;
+  padding: 40px;
+  background-color: #fff;
   opacity: 1;
   transform: translate(-50%, -50%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
     opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  height: 581px;
-  width: 528px;
-  padding: 17px;
-  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 .button-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -629,4 +651,52 @@ address {
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+}
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+.form-title {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--basic-text-color);
+}
+.input-box {
+  display: flex;
+  flex-direction: column;
+}
+.modform-input {
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+.in-title {
+  margin-bottom: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: var(--secondary-text-color);
+}
+.input-box:not(:last-child) {
+  margin-bottom: 4px;
+}
+.areement {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+.chekbox-field {
+  text-align: center;
+}
+.send-btn {
+  display: inline-block;
 }
