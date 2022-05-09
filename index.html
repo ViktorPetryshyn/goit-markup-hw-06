@@ -465,11 +465,18 @@
             </div>
           <div class="input-box">
             <label for="comment" class="in-title">Комментарий</label>
-            <textarea name="comment" id="comment" class="modform-input textarea"></textarea>
+            <textarea name="comment" id="comment" class="modform-input textarea" placeholder="Введите текст"></textarea>
           </div>
           <div class="chekbox-field">
+            <label for="agreement" class="agree-txt">
             <input type="checkbox" name="agreement" id="agreement" class="agreement" value="agree">
-            <label for="areement" class="areement">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></label>
+              <span class="checkbox-icon-box">
+              <svg class="checkbox-icon" width="16" height="15">
+                <use href="img/icon.svg#icon-check"></use>
+              </svg>
+            </span>
+              Соглашаюсь с рассылкой и принимаю <a href="" class="agree-doc">Условия договора</a>
+            </label>
           </div>
           <button type="submit" class="send-btn">Отправить</button>
       </div>
