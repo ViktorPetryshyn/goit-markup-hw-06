@@ -163,5 +163,8 @@
     <path d="M4 1h24c2.209 0 4 1.791 4 4v22c0 2.209-1.791 4-4 4h-24c-2.209 0-4-1.791-4-4v-22c0-2.209 1.791-4 4-4z"></path>
     <path stroke="#fff" stroke-width="0.4" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" style="fill: var(--color1, #fff); stroke: var(--color1, #fff)" d="M8 16.6l-0.2-0.2-2 1.8v0.2l7 6.8h0.2l15.2-14.4v-0.2l-2-1.8-13.2 12.6-5-4.8z"></path>
     </symbol>
+    <symbol id="border-icon" viewBox="0 0 34 32">
+<path d="M30.293 3.627v24.747h-26.453v-24.747h26.453zM30.293 0h-26.453c-2.133 0-3.84 1.707-3.84 3.627v24.747c0 2.133 1.707 3.627 3.84 3.627h26.453c2.133 0 3.84-1.707 3.84-3.627v-24.747c0-2.133-1.707-3.627-3.84-3.627z"></path>
+</symbol>
   </defs>
 </svg>
