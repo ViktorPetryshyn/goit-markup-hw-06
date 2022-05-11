@@ -688,6 +688,7 @@ address {
 }
 .input-box:focus-within > .modform-input {
   border-color: var(--accented-text-color);
+  outline: none;
 }
 .input-box:focus-within > .modform-icon {
   fill: var(--accented-text-color);
