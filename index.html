@@ -431,17 +431,23 @@
           </ul>
         </div>
         <div role="form" class="join-form">
-          <label for="subscribe" class="join-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ
-          <div class="subscribe-box">
-            <input type="email" id="subscribe" class="subscribe" name="email"
-            placeholder="E-mail">
-            <button type="submit" class="subscribe-btn">
-              Подписаться
-              <svg class="subscribe-icon" width="24" height="24">
-                <use href="img/icon.svg#icon-send"></use>
-              </svg>
-            </button>
-          </div>
+          <label for="subscribe" class="join-title"
+            >ПОДПИШИТЕСЬ НА РАССЫЛКУ
+            <div class="subscribe-box">
+              <input
+                type="email"
+                id="subscribe"
+                class="subscribe"
+                name="email"
+                placeholder="E-mail"
+              />
+              <button type="submit" class="subscribe-btn">
+                Подписаться
+                <svg class="subscribe-icon" width="24" height="24">
+                  <use href="img/icon.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
           </label>
         </div>
       </div>
@@ -457,65 +463,66 @@
           </svg>
         </button>
         <div role="form" class="modal-form">
-          <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
-          <div class="input-box">
-            <label for="name" class="in-title">Имя</label>
-            <input type="text" id="name" class="modform-input" name="name" />
-            <svg class="modform-icon" width="18" height="18">
-              <use href="img/icon.svg#person-black"></use>
-            </svg>
-          </div>
-          <div class="input-box">
-            <label for="tel" class="in-title">Телефон</label>
-            <input type="tel" id="tel" class="modform-input" name="tel" />
-            <svg class="modform-icon" width="18" height="18">
-              <use href="img/icon.svg#phone-black"></use>
-            </svg>
-          </div>
-          <div class="input-box">
-            <label for="mail" class="in-title">Почта</label>
-            <input type="email" id="mail" class="modform-input" name="mail" />
-            <svg class="modform-icon" width="18" height="18">
-              <use href="img/icon.svg#email-black"></use>
-            </svg>
-          </div>
-          <div class="input-box">
-            <label for="comment" class="in-title">Комментарий</label>
-            <textarea
-              name="comment"
-              id="comment"
-              class="modform-input textarea"
-              placeholder="Введите текст"
-            ></textarea>
-          </div>
-          <div class="chekbox-field">
-            <label for="agreement" class="agree-txt">
-              <input
-                type="checkbox"
-                name="agreement"
-                id="agreement"
-                class="agreement"
-                value="agree"
-              />
-              <span class="icon-box-nochecked">
-                <svg class="checkbox-icon" width="16" height="15">
-                  <use href="img/icon.svg#border-icon"></use>
-                </svg>
-              </span>
-              <span class="icon-box-checked">
-                <svg class="checked-icon" width="16" height="15">
-                  <use href="img/icon.svg#icon-check"></use>
-                </svg>
-              </span>
-              Соглашаюсь с рассылкой и принимаю&nbsp;<a
-                href=""
-                class="agree-doc"
-                >Условия договора</a
-              >
-
-            </label>
-          </div>
-          <button type="submit" class="send-btn">Отправить</button>
+          <form name="leave-info">
+            <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
+            <div class="input-box">
+              <label for="name" class="in-title">Имя</label>
+              <input type="text" id="name" class="modform-input" name="name" />
+              <svg class="modform-icon" width="18" height="18">
+                <use href="img/icon.svg#person-black"></use>
+              </svg>
+            </div>
+            <div class="input-box">
+              <label for="tel" class="in-title">Телефон</label>
+              <input type="tel" id="tel" class="modform-input" name="tel" />
+              <svg class="modform-icon" width="18" height="18">
+                <use href="img/icon.svg#phone-black"></use>
+              </svg>
+            </div>
+            <div class="input-box">
+              <label for="mail" class="in-title">Почта</label>
+              <input type="email" id="mail" class="modform-input" name="mail" />
+              <svg class="modform-icon" width="18" height="18">
+                <use href="img/icon.svg#email-black"></use>
+              </svg>
+            </div>
+            <div class="input-box">
+              <label for="comment" class="in-title">Комментарий</label>
+              <textarea
+                name="comment"
+                id="comment"
+                class="modform-input textarea"
+                placeholder="Введите текст"
+              ></textarea>
+            </div>
+            <div class="chekbox-field">
+              <label for="agreement" class="agree-txt">
+                <input
+                  type="checkbox"
+                  name="agreement"
+                  id="agreement"
+                  class="agreement"
+                  value="agree"
+                />
+                <span class="icon-box-nochecked">
+                  <svg class="checkbox-icon" width="16" height="15">
+                    <use href="img/icon.svg#border-icon"></use>
+                  </svg>
+                </span>
+                <span class="icon-box-checked">
+                  <svg class="checked-icon" width="16" height="15">
+                    <use href="img/icon.svg#icon-check"></use>
+                  </svg>
+                </span>
+                Соглашаюсь с рассылкой и принимаю&nbsp;<a
+                  href=""
+                  class="agree-doc"
+                  >Условия договора</a
+                >
+              </label>
+            </div>
+            <button type="submit" class="send-btn">Отправить</button>
+          </form>
         </div>
       </div>
     </div>

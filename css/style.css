@@ -684,7 +684,7 @@ address {
   height: 40px;
   padding-left: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px
+  border-radius: 4px;
 }
 .input-box:focus-within > .modform-input {
   border-color: var(--accented-text-color);
@@ -762,9 +762,10 @@ address {
   opacity: 0;
 }
 .send-btn {
+  display: block;
+  margin: 0 auto;
   width: 200px;
   height: 50px;
-  margin: auto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
