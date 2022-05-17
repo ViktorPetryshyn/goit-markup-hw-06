@@ -16,33 +16,32 @@
     />
   </head>
   <body>
-    <header class="top">
+    <header class="page-header">
       <!-- nav-sec -->
       <div class="container head">
-        <nav class="panel-nav">
+        <nav class="nav-panel">
           <a class="logo" href="/">
-            <span class="web">Web</span><span class="studio">Studio</span>
+            <span class="logo__web">Web</span
+            ><span class="logo__studio">Studio</span>
           </a>
-          <ul class="nav-item">
-            <li><a href="./index.html">Студия</a></li>
-            <li>
-              <a class="current" href="./portfolio.html">Портфолио</a>
-            </li>
+          <ul class="nav-pages">
+            <li><a class="current" href="./index.html">Студия</a></li>
+            <li><a href="./portfolio.html">Портфолио</a></li>
             <li><a href="">Контакты</a></li>
           </ul>
         </nav>
         <ul class="nav-contact">
-          <li class="mail">
+          <li class="nav-contact__mail">
             <a href="mailto:info@devstudio.com">
-              <svg class="con-icon" width="16" height="12">
+              <svg class="nav-contact__icon" width="16" height="12">
                 <use href="img/icon.svg#envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="telephone">
+          <li class="nav-contact__tel">
             <a href="tel:+380961111111">
-              <svg class="con-icon" width="10" height="16">
+              <svg class="nav-contact__icon" width="10" height="16">
                 <use href="img/icon.svg#smartphone"></use>
               </svg>
               +38 096 111 11 11
@@ -58,27 +57,27 @@
         <!-- <h1>Фильтр</h1> -->
         <div class="container">
           <ul class="filter">
-            <li class="filter-item">
-              <button type="button" class="button-port">Все</button>
+            <li class="filter__item">
+              <button type="button" class="filter__button">Все</button>
             </li>
-            <li class="filter-item">
-              <button type="button" class="button-port">Веб-сайты</button>
+            <li class="filter__item">
+              <button type="button" class="filter__button">Веб-сайты</button>
             </li>
-            <li class="filter-item">
-              <button type="button" class="button-port">Приложения</button>
+            <li class="filter__item">
+              <button type="button" class="filter__button">Приложения</button>
             </li>
-            <li class="filter-item">
-              <button type="button" class="button-port">Дизайн</button>
+            <li class="filter__item">
+              <button type="button" class="filter__button">Дизайн</button>
             </li>
-            <li class="filter-item">
-              <button type="button" class="button-port">Маркетинг</button>
+            <li class="filter__item">
+              <button type="button" class="filter__button">Маркетинг</button>
             </li>
           </ul>
-          <ul class="our-project">
-            <li class="project-item">
-              <a class="project-link" href="/">
-                <div class="project-card">
-                  <div class="project-meta">
+          <ul class="project">
+            <li class="project__item">
+              <a class="project__link" href="/">
+                <div class="project__card">
+                  <div class="project__meta">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Expedita aut ipsam ullam distinctio ratione fugiat sunt.
                     Quia obcaecati inventore laboriosam aperiam beatae aut
@@ -91,16 +90,16 @@
                     height="294"
                   />
                 </div>
-                <div class="project-info">
-                  <h2 class="name-project">Технокряк</h2>
-                  <p class="product">Веб-сайт</p>
+                <div class="project__info">
+                  <h2 class="project__name">Технокряк</h2>
+                  <p class="project__product">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="project-item">
-              <a class="project-link" href="/">
-                <div class="project-card">
-                  <div class="project-meta">
+            <li class="project__item">
+              <a class="project__link" href="/">
+                <div class="project__card">
+                  <div class="project__meta">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Expedita aut ipsam ullam distinctio ratione fugiat sunt.
                     Quia obcaecati inventore laboriosam aperiam beatae aut
@@ -113,16 +112,18 @@
                     height="294"
                   />
                 </div>
-                <div class="project-info">
-                  <h2 class="name-project">Постер New Orlean vs Golden Star</h2>
-                  <p class="product">Дизайн</p>
+                <div class="project__info">
+                  <h2 class="project__name">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="project__product">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="project-item">
-              <a class="project-link" href="/">
-                <div class="project-card">
-                  <div class="project-meta">
+            <li class="project__item">
+              <a class="project__link" href="/">
+                <div class="project__card">
+                  <div class="project__meta">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Expedita aut ipsam ullam distinctio ratione fugiat sunt.
                     Quia obcaecati inventore laboriosam aperiam beatae aut
@@ -135,16 +136,16 @@
                     height="294"
                   />
                 </div>
-                <div class="project-info">
-                  <h2 class="name-project">Ресторан Seafood</h2>
-                  <p class="product">Приложение</p>
+                <div class="project__info">
+                  <h2 class="project__name">Ресторан Seafood</h2>
+                  <p class="project__product">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="project-item">
-              <a class="project-link" href="/">
-                <div class="project-card">
-                  <div class="project-meta">
+            <li class="project__item">
+              <a class="project__link" href="/">
+                <div class="project__card">
+                  <div class="project__meta">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Expedita aut ipsam ullam distinctio ratione fugiat sunt.
                     Quia obcaecati inventore laboriosam aperiam beatae aut
@@ -157,16 +158,16 @@
                     height="294"
                   />
                 </div>
-                <div class="project-info">
-                  <h2 class="name-project">Проект Prime</h2>
-                  <p class="product">Маркетинг</p>
+                <div class="project__info">
+                  <h2 class="project__name">Проект Prime</h2>
+                  <p class="project__product">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="project-item">
-              <a class="project-link" href="/">
-                <div class="project-card">
-                  <div class="project-meta">
+            <li class="project__item">
+              <a class="project__link" href="/">
+                <div class="project__card">
+                  <div class="project__meta">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Expedita aut ipsam ullam distinctio ratione fugiat sunt.
                     Quia obcaecati inventore laboriosam aperiam beatae aut
@@ -179,16 +180,16 @@
                     height="294"
                   />
                 </div>
-                <div class="project-info">
-                  <h2 class="name-project">Проект Boxes</h2>
-                  <p class="product">Приложение</p>
+                <div class="project__info">
+                  <h2 class="project__name">Проект Boxes</h2>
+                  <p class="project__product">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="project-item">
-              <a class="project-link" href="/">
-                <div class="project-card">
-                  <div class="project-meta">
+            <li class="project__item">
+              <a class="project__link" href="/">
+                <div class="project__card">
+                  <div class="project__meta">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Expedita aut ipsam ullam distinctio ratione fugiat sunt.
                     Quia obcaecati inventore laboriosam aperiam beatae aut
@@ -201,16 +202,16 @@
                     height="294"
                   />
                 </div>
-                <div class="project-info">
-                  <h2 class="name-project">Inspiration has no Borders</h2>
-                  <p class="product">Веб-сайт</p>
+                <div class="project__info">
+                  <h2 class="project__name">Inspiration has no Borders</h2>
+                  <p class="project__product">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="project-item">
-              <a class="project-link" href="/">
-                <div class="project-card">
-                  <div class="project-meta">
+            <li class="project__item">
+              <a class="project__link" href="/">
+                <div class="project__card">
+                  <div class="project__meta">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Expedita aut ipsam ullam distinctio ratione fugiat sunt.
                     Quia obcaecati inventore laboriosam aperiam beatae aut
@@ -223,16 +224,16 @@
                     height="294"
                   />
                 </div>
-                <div class="project-info">
-                  <h2 class="name-project">Издание Limited Edition</h2>
-                  <p class="product">Дизайн</p>
+                <div class="project__info">
+                  <h2 class="project__name">Издание Limited Edition</h2>
+                  <p class="project__product">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="project-item">
-              <a class="project-link" href="/">
-                <div class="project-card">
-                  <div class="project-meta">
+            <li class="project__item">
+              <a class="project__link" href="/">
+                <div class="project__card">
+                  <div class="project__meta">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Expedita aut ipsam ullam distinctio ratione fugiat sunt.
                     Quia obcaecati inventore laboriosam aperiam beatae aut
@@ -245,16 +246,16 @@
                     height="294"
                   />
                 </div>
-                <div class="project-info">
-                  <h2 class="name-project">Проект LAB</h2>
-                  <p class="product">Маркетинг</p>
+                <div class="project__info">
+                  <h2 class="project__name">Проект LAB</h2>
+                  <p class="project__product">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="project-item">
-              <a class="project-link" href="/">
-                <div class="project-card">
-                  <div class="project-meta">
+            <li class="project__item">
+              <a class="project__link" href="/">
+                <div class="project__card">
+                  <div class="project__meta">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Expedita aut ipsam ullam distinctio ratione fugiat sunt.
                     Quia obcaecati inventore laboriosam aperiam beatae aut
@@ -267,9 +268,9 @@
                     height="294"
                   />
                 </div>
-                <div class="project-info">
-                  <h2 class="name-project">Growing Business</h2>
-                  <p class="product">Приложение</p>
+                <div class="project__info">
+                  <h2 class="project__name">Growing Business</h2>
+                  <p class="project__product">Приложение</p>
                 </div>
               </a>
             </li>
@@ -279,22 +280,22 @@
     </main>
 
     <footer class="footer">
-      <div class="footer-sec container connection">
+      <div class="footer-sec container">
         <div>
           <a class="logo" href="/">
-            <span class="web">Web</span
-            ><span class="studio-footer">Studio</span>
+            <span class="logo__web">Web</span
+            ><span class="logo__studio--footer">Studio</span>
           </a>
 
           <!-- connection -->
 
           <address>
             г. Киев, пр-т Леси Украинки, 26
-            <ul class="connection-list">
-              <li class="conn-item email">
+            <ul class="conn-list">
+              <li class="conn-list__item">
                 <a href="mailto:info@example.com">info@example.com</a>
               </li>
-              <li class="conn-item fone">
+              <li class="conn-list__item">
                 <a href="tel:+380991111111">+38 099 111 11 11</a>
               </li>
             </ul>
@@ -302,32 +303,32 @@
         </div>
 
         <div class="join">
-          <h3 class="join-title">ПРИСОЕДИНЯЙТЕСЬ</h3>
+          <h3 class="join__title">ПРИСОЕДИНЯЙТЕСЬ</h3>
           <ul class="soc-media">
-            <li class="soc-media-item">
-              <a href="/" class="link-icon">
-                <svg class="soc-media-icon" width="20" height="20">
+            <li class="soc-media__item">
+              <a href="/" class="soc-media__link">
+                <svg class="soc-media__icon" width="20" height="20">
                   <use href="img/icon.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="soc-media-item">
-              <a href="/" class="link-icon">
-                <svg class="soc-media-icon" width="20" height="20">
+            <li class="soc-media__item">
+              <a href="/" class="soc-media__link">
+                <svg class="soc-media__icon" width="20" height="20">
                   <use href="img/icon.svg#twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="soc-media-item">
-              <a href="/" class="link-icon">
-                <svg class="soc-media-icon" width="20" height="20">
+            <li class="soc-media__item">
+              <a href="/" class="soc-media__link">
+                <svg class="soc-media__icon" width="20" height="20">
                   <use href="img/icon.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="soc-media-item">
-              <a href="/" class="link-icon">
-                <svg class="soc-media-icon" width="20" height="20">
+            <li class="soc-media__item">
+              <a href="/" class="soc-media__link">
+                <svg class="soc-media__icon" width="20" height="20">
                   <use href="img/icon.svg#linkedin"></use>
                 </svg>
               </a>
@@ -335,19 +336,19 @@
           </ul>
         </div>
         <form class="join-form">
-          <label for="subscribe" class="join-title"
+          <label for="subscribe" class="join__title"
             >ПОДПИШИТЕСЬ НА РАССЫЛКУ
-            <div class="subscribe-box">
+            <div class="subscribe">
               <input
                 type="email"
                 id="subscribe"
-                class="subscribe"
+                class="subscribe__input"
                 name="email"
                 placeholder="E-mail"
               />
-              <button type="submit" class="subscribe-btn">
+              <button type="submit" class="subscribe__button">
                 Подписаться
-                <svg class="subscribe-icon" width="24" height="24">
+                <svg class="subscribe__icon" width="24" height="24">
                   <use href="img/icon.svg#icon-send"></use>
                 </svg>
               </button>
